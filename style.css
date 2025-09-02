@@ -1,0 +1,27 @@
+:root
+{
+    --primary-color: #B8FFF9;
+    --secondary-color: #85F4FF;
+    --teriary-color: #42C2FF;
+    --background-color: #EFFFFD;
+    --text-color: #333333;
+    --font-family: 'Arial, sans-serif';
+}
+
+body
+{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family: var(--font-family);
+}
