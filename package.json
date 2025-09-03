@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.css -o ./styles.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dist0pia25/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dist0pia25/Portfolio/issues"
+  },
+  "homepage": "https://github.com/dist0pia25/Portfolio#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }

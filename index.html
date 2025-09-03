@@ -12,29 +12,45 @@
 
     <body class="container">
         <header class="header">
-            <img class="logo" src="" alt=""> <!-- Placeholder for logo image -->
-            <nav class="navegator"></nav>
+            <button class="menuBtn" id="menuBtn">HoverButton</button>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+        <button class="toggleBtn" id="toggleBtn">HoverButton</button>
+        <nav class="navegator">
+            <img src="logo" alt="logo.png" class="logo-sidebar"> <!-- Sidebar logo -->
                 <ul class="nav-links">
                     <li class="nav-object"><a href="#aboutme">About Me</a></li>
                     <li class="nav-object"><a href="#projects">Projects</a></li>
                     <li class="nav-object"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-        </header>
+        </aside>
 
         <main>
             <section id="aboutme">
                 <h2 class="section-title">About Me</h2>
-                <p>Welcome to my Portfolio</p>
+                <p>I'm a video game and website developer. <br> 
+                    With experience in Unity and C#,
+                    I've created video games and prototypes across multiple genres. <br> 
+                    I specialize in software architecture. <br> My expertise includes
+                    creating scalable solutions 
+                    and developing best practices and design patterns for modular design.</p>
             </section>
+
+            <section>Experience</section>
 
             <section id="projects">
                 <h2 class="section-title">Projects</h2>
-                <ul class="project-list">
-                    <li class="project-item"><h2 class="project-item-title">Project 01</h2></li>
-                    <li class="project-item"><h2 class="project-item-title">Project 02</h2></li>
-                    <li class="project-item"><h2 class="project-item-title">Project 03</h2></li>
-                </ul>
+                <button> Game Dev Projects</button>
+                <button>Web Dev Projects</button>
+                <div>Project Gallery
+                    <ul>
+                        <li>Project 1</li>
+                        <li>Project 2</li>
+                        <li>Project 3</li>
+                    </ul>
+                </div>
             </section>
         </main>
 
@@ -42,6 +58,7 @@
             <p>&copy; 2025 René Figueroa. All Rights Reserved.</p>
         </footer>
 
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
+
     </body>
 </html>
